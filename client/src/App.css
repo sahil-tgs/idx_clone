@@ -7,13 +7,14 @@
   }
 }
 
-body {
+ body {
   animation: dotScroll 16s linear infinite;
-  background-color: black ;
-  background-image:radial-gradient(circle,#ff6600 2px ,transparent 0);
+  background-color: rgb(23, 31, 41) ;
+  background-image:radial-gradient(circle,#ffffff 2px ,transparent 0);
   background-size: calc(14.2857142857% - 1px) 100px;
   background-position: -60px 0;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-} 
+}  
+

@@ -1,0 +1,30 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 20px; /* Adjust the width as needed */
+    background-color: #333; /* Customize the background color */
+    color: white; /* Customize the text color */
+    padding: 20px; /* Add padding as needed */
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: space-between;
+    height: 93.95vh; /* Make the sidebar cover the full height of the viewport */
+  }
+  
+  .icon-link {
+    text-decoration: none; /* Remove underline from links */
+    margin: 10px 0; /* Add spacing between the icons */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; /* Customize link text color */
+  }
+  
+  .icon-link:hover {
+    background-color: #555; /* Customize link hover background color */
+  }
+  
+  
