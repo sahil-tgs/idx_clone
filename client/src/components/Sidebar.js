@@ -1,7 +1,5 @@
 // src/components/Sidebar.js
-
-import React from 'react';
-import './sidebar.css';
+import './Sidebar.css';
 
 function Sidebar() {
   return (
