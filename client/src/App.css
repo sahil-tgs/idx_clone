@@ -1,3 +1,5 @@
+/* src/App.css */
+
 @keyframes dotScroll {
   0% {
     background-position-y: 140px;
@@ -7,14 +9,40 @@
   }
 }
 
- body {
+
+/* Styles for the overall container */
+.app-container {
+  display: flex;
+  
+}
+
+/* Sidebar styles */
+.sidenav {
+  width: 20px; /* Adjust the width of the sidebar as needed */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 20px; /* Adjust the width as needed */
+  background-color: #333; /* Customize the background color */
+  color: white; /* Customize the text color */
+  padding: 20px; /* Add padding as needed */
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: space-between;
+  height: 93.95vh; /* Make the sidebar cover the full height of the viewport */
+}
+
+/* Main content styles */
+.main {
+  flex: 1; /* Allow the main content to take up the remaining space */
   animation: dotScroll 16s linear infinite;
   background-color: rgb(23, 31, 41) ;
   background-image:radial-gradient(circle,#ffffff 2px ,transparent 0);
-  background-size: calc(14.2857142857% - 1px) 100px;
-  background-position: -60px 0;
+  background-size: calc(14.2857142857% - 65px) 100px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-}  
+  padding-left: 48px;
+  padding-right: 48px;
+}
 
