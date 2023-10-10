@@ -1,0 +1,46 @@
+/* components/NavigationBar.css */
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    padding: 10px 20px;
+  }
+  
+  .nav-container a,
+  .nav-container button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px; /* Add space between the link and button */
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s; /* Transition background color and text color */
+  }
+  
+  .nav-container a {
+    background-color: transparent;
+    border: 2px solid #007bff; /* Add the outline on the 'a' element */
+  }
+  
+  .nav-container a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav-container a:active {
+    background-color: #0056b3;
+  }
+  
+  .nav-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  .nav-container button:hover {
+    background-color: #0056b3;
+  }
+  

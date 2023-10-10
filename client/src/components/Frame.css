@@ -1,0 +1,35 @@
+.frame-child {
+    position: relative;
+    background-color: #10141d;
+    border-top: 2px solid #222e40;
+    border-bottom: 2px solid #222e40;
+    border-left: 2px solid #222e40;
+    box-sizing: border-box;
+    width: 40%;
+    height: 400px;
+  }
+  .frame-item {
+    position: absolute;
+    background: radial-gradient(50% 50% at 40% -10%, #2e4261, rgba(19, 32, 51, 0));
+    width: 800px;
+    height: 600px;
+    
+  }
+  .frame-wrapper {
+    position: relative;
+    background-color: #10141d;
+    border: 2px solid #222e40;
+    box-sizing: border-box;
+    width: 60%;
+    height: 600px;
+    overflow: hidden;
+  }
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+  }
+  
