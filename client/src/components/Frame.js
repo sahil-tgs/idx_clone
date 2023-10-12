@@ -1,3 +1,5 @@
+// ./src/components/Frame.js
+
 import "./Frame.css";
 
 const Frame = (props) => {
@@ -5,12 +7,31 @@ const Frame = (props) => {
     <div className="frame-parent" >
 
         <div className="frame-child">
-            <div className="yo"> {props.title} </div>
+             {props.logo}
+             <div className="heading">
+                {props.heading}
+              </div>
+             <div className="content">
+                {props.content}
+              </div> 
+
+             <button className="lol"> 
+                  Join Waitlist
+                  <img className="arrow" src="/squiggly_arroww.svg" />
+               </button>
+
         </div>
 
         <div className="frame-wrapper">
             <div className="frame-item" />
-            <div className="yo"> {props.image} </div>
+
+            <div className="abcd">
+              <div className="inside">
+                {props.svg}
+              </div>
+              
+            </div>
+              
         </div>
 
     </div>

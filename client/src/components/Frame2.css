@@ -1,6 +1,6 @@
 /* ./src/components/Frame.css */
 
-.frame-child {
+.rev-frame-child {
     position: relative;
     background-color: #10141d;
     border-top: 2px solid #222e40;
@@ -11,14 +11,14 @@
     height: 400px;
     padding: 20px;
   }
-  .frame-item {
+  .rev-frame-item {
     position: absolute;
     background: radial-gradient(50% 50% at 40% -10%, #2e4261, rgba(19, 32, 51, 0));
     width: 800px;
     height: 300px;
     
   }
-  .frame-wrapper {
+  .rev-frame-wrapper {
     position: relative;
     background-color: #10141d;
     border: 2px solid #222e40;
@@ -28,24 +28,24 @@
     overflow: hidden;
     align-items: center;
   }
-  .frame-parent {
+  .rev-frame-parent {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
     height: fit-content;
   }
   
-  .heading{
+  .rev-heading{
     color: white;
   }
 
-  .content{
+  .rev-content{
     color: white;
   }
 
-  .lol{
+  .rev-lol{
     color: #8964E8;
     background-color: transparent;
     border: 2px solid transparent;
@@ -63,7 +63,7 @@
     }
   }
 
-  .arrow{
+  .rev-arrow{
     height: 15px;
     width: 15px;
     transform: rotate(270deg);
@@ -71,11 +71,11 @@
     transition: margin 0.3s;
   }
 
-  .lol:hover .arrow {
+  .rev-lol:hover .arrow {
     margin-left: 15px; /* Increase the margin on hover */
   }
 
-  .abcd{
+  .rev-abcd{
     margin: 30px;
     text-align: center;
     

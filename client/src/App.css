@@ -46,3 +46,13 @@
   padding-right: 48px;
 }
 
+.Footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.anc{
+  color: #ffffff;
+  text-decoration: none;
+}
