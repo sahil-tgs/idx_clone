@@ -13,6 +13,8 @@ import Section7 from './components/Section7';
 function App() {
   return (
     <div className="app-container">
+      <div className="shine"></div>
+      
       <div className="sidenav">
         <a href="/page1" className="idxLogo">
          <img src="/idxlogo.svg" alt="Icon 1" width="30" height="30" />
@@ -23,26 +25,50 @@ function App() {
       </div>
         
       <div className="main">
-        <NavigationBar />
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
-        <Section7 />
-
-      <div className="Footer">
-          <div className="Left">
-            <a href="/" className="anc"> Privacy Policy </a>
-          </div>
-          <div className="Right">
+        
+        <div className="navbar">
+          <NavigationBar />
+        </div> 
           
-          <a href="/" className="anc"> Terms & Conditions </a>
-          </div>
-      </div>
+          <Section1 />
+        
+        <div className="section2">
+          <Section2 />
+        </div>
+
+        <div className="section3">
+        <Section3 />
+        </div>
+
+        <div className="section4">
+          <Section4 />
+        </div>
+
+        <div className="section5">
+          <Section5 />
+        </div>
+        
+        <div className="section6">
+          <Section6 />
+        </div>
+
+        <div className="section7">
+          <Section7 />
+        </div>
+
+        <div className="Footer">
+            <div className="Left">
+              <a href="/" className="anc"> Privacy Policy </a>
+            </div>
+            <div className="Right">
+            
+            <a href="/" className="anc"> Terms & Conditions </a>
+            </div>
+        </div>
 
       </div>
+      
+      
     </div>
   );
 }
