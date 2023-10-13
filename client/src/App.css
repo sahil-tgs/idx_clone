@@ -18,31 +18,96 @@
 
 /* Sidebar styles */
 .sidenav {
-  width: 20px; /* Adjust the width of the sidebar as needed */
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 20px; /* Adjust the width as needed */
-  background-color: #333; /* Customize the background color */
-  color: white; /* Customize the text color */
-  padding: 20px; /* Add padding as needed */
+  align-items: stretch;
+  background-color: rgb(22, 30, 41);
+  border-bottom-color: rgb(46, 60, 81);
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-left-color: rgb(46, 60, 81);
+  border-left-style: solid;
+  border-left-width: 0px;
+  border-right-color: rgb(46, 60, 81);
+  border-right-style: solid;
+  border-right-width: 0.917431px;
+  border-top-color: rgb(46, 60, 81);
+  border-top-style: solid;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(128, 140, 156);
+  color-scheme: dark;
   display: flex;
-  flex-direction: column; /* Arrange items in a column */
+  flex-direction: column;
+  font-family: "Google Sans Text", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: normal;
+  font-variation-settings: normal;
   justify-content: space-between;
-  height: 93.95vh; /* Make the sidebar cover the full height of the viewport */
+  line-height: 24px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  position: sticky;
+  tab-size: 4;
+  text-size-adjust: 100%;
+  top: 0px;
+  width: 69.9971px;
+  height: 100vh; /* Make the sidebar cover the full height of the viewport */
 }
 
 /* Main content styles */
 .main {
   flex: 1; /* Allow the main content to take up the remaining space */
   animation: dotScroll 16s linear infinite;
-  background-color: rgb(23, 31, 41) ;
-  background-image:radial-gradient(circle,#ffffff 2px ,transparent 0);
-  background-size: calc(14.2857142857% - 65px) 100px;
+  background-color: rgb(16, 21, 29);
+  background-image:radial-gradient(circle, #2e3c51 2px ,transparent 0);
+  background-size: calc(14.2857142857% - 64px) 100px;
+  /* background-position: -60px 0; */
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 48px;
   padding-right: 48px;
+  justify-content: center;
+  align-items: center;
 }
 
+.Footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.anc{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section3{
+  margin-top: 128px;
+}
+.section4{
+  margin-top: 128px;
+}
+.section5{
+  margin-top: 128px;
+  margin-bottom: 128px; /*margin overlaps*/
+}
+.section6{
+  margin-top: 128px;
+}
+.section7{
+  margin-top: 128px;
+  margin-bottom: 240px;
+}
+
+.shine{
+    position:absolute;
+    background: radial-gradient(50% 50% at 50%  0%, #131f33 20%, rgba(19,30,49,0));
+    width: 100%;
+    height: 300px;
+    top: 0; /* Position at the top of the page */
+    left: 50%; /* Position in the horizontal center */
+    transform: translateX(-50%); 
+  
+}

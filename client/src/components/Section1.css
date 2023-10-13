@@ -1,24 +1,49 @@
-/* components/Section1.css */
-
 .section1 {
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px; /* Add margin as needed */
-  }
-  
-  .section1-heading {
-    text-align: center;
-    color: white;
-  }
-  
-  .section1-empty-div {
-    height: 100px; /* Adjust the height as needed */
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .section1-icon {
-    text-align: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  height: 486.432px;
+  margin-left: 68.1551px;
+  margin-right: 68.1551px;
+  max-width: 850px;
+  text-align: center;
+  justify-content: baseline; /* Center horizontally and vertically */
+}
+
+.section1-heading {
+  text-align: center;
+  color: white;
+  margin: 0; /* Set margin to 0 to remove any extra spacing */
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.section1-empty-div {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 221.997px; /* Adjust the height as needed */
+  width: 650px;
+  text-align: center;
+}
+
+.squigly {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  margin-top: 96px;
+}
+
+.span {
+  display: inline-block; /* Allows height to match its content */
+  color: rgb(168, 127, 251);
+  cursor: pointer;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 36px;
+  transform: rotate(90deg);
+}
+
+.squigly {
+  display: block;
+}

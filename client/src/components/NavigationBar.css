@@ -1,12 +1,42 @@
 /* components/NavigationBar.css */
-
 .nav-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: left;
-    padding: 10px 20px;
-  }
-  
+  align-items: center;
+  border-bottom-color: rgb(22, 30, 41);
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-left-color: rgb(22, 30, 41);
+  border-left-style: solid;
+  border-left-width: 0px;
+  border-right-color: rgb(22, 30, 41);
+  border-right-style: solid;
+  border-right-width: 0px;
+  border-top-color: rgb(22, 30, 41);
+  border-top-style: solid;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(191, 199, 210);
+  color-scheme: dark;
+  column-gap: 12px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Google Sans Text", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  height: 50.2867px;
+  justify-content: flex-end;
+  line-height: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  max-width: 1024px;
+  row-gap: 12px;
+  tab-size: 4;
+  text-align: center;
+  text-size-adjust: 100%;
+  width: 986.31px;
+}
+
   .nav-container a,
   .nav-container button {
     padding: 10px 20px;
