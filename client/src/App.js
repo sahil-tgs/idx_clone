@@ -13,19 +13,20 @@ import Section7 from './components/Section7';
 function App() {
   return (
     <div className="app-container">
-      <div className="shine"></div>
+      
       
       <div className="sidenav">
         <a href="/page1" className="idxLogo">
          <img src="/idxlogo.svg" alt="Icon 1" width="30" height="30" />
         </a>
         <a href="/page2" className="googleLogo" >
-          <img src="/googlr.svg" alt="Icon 2" width="30" height="30" />
+          <img src="/googlr.svg" alt="Icon 2" width="20" height="20" />
         </a>
       </div>
-        
+      
       <div className="main">
-        
+
+        <div className="content">
         <div className="navbar">
           <NavigationBar />
         </div> 
@@ -64,10 +65,14 @@ function App() {
             
             <a href="/" className="anc"> Terms & Conditions </a>
             </div>
-        </div>
 
+
+        </div>
+        </div>
+        
+       
+        <div className="shine"></div>
       </div>
-      
       
     </div>
   );

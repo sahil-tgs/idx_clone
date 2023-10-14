@@ -16,7 +16,7 @@ function Frame2(props) {
 
              <button className="rev-lol"> 
                   Join Waitlist
-                  <img className="rev-arrow" src="/squiggly_arroww.svg" alt="image" />
+                  <img className="rev-arrow" src="/squiggly_arroww.svg" alt="lol" />
                </button>
 
         </div>

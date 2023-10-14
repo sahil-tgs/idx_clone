@@ -1,21 +1,6 @@
 /* components/NavigationBar.css */
 .nav-container {
-  align-items: center;
-  border-bottom-color: rgb(22, 30, 41);
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
-  border-left-color: rgb(22, 30, 41);
-  border-left-style: solid;
-  border-left-width: 0px;
-  border-right-color: rgb(22, 30, 41);
-  border-right-style: solid;
-  border-right-width: 0px;
-  border-top-color: rgb(22, 30, 41);
-  border-top-style: solid;
-  border-top-width: 0px;
-  box-sizing: border-box;
-  color: rgb(191, 199, 210);
-  color-scheme: dark;
+  /* align-items: center; */
   column-gap: 12px;
   display: flex;
   flex-direction: row;
@@ -24,53 +9,78 @@
   font-variation-settings: normal;
   height: 50.2867px;
   justify-content: flex-end;
-  line-height: 24px;
-  margin-left: 0px;
-  margin-right: 0px;
   margin-top: 32px;
   margin-bottom: 64px;
   max-width: 1024px;
-  row-gap: 12px;
-  tab-size: 4;
-  text-align: center;
-  text-size-adjust: 100%;
-  width: 986.31px;
+  /* width: 986.31px; */
 }
 
-  .nav-container a,
-  .nav-container button {
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 10px; /* Add space between the link and button */
-    color: #007bff;
-    transition: background-color 0.3s, color 0.3s; /* Transition background color and text color */
-  }
+.explore{
+  background-color: rgb(16, 21, 29);
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgb(46, 60, 81);
+  box-sizing: border-box;
+  color: rgb(191, 199, 210);
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  line-height: 20px;
+  overflow: hidden;
+  transition: 0.3s ease; 
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+ 
+.explore:hover{
+  background-color: #1E1F33;
+  border-color: #A87FFB;
+
+}
+
+.join {
+  background: rgb(168, 127, 251);
+  border: 2px solid rgb(168, 127, 251);
+  border-radius: 9999px;
+  box-sizing: border-box;
+  color: rgb(16, 21, 29);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Google Sans Display", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-weight: 700;
+  height: 50.2867px;
+  padding: 14px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: 0.3s ease;
+  width: fit-content;
+}
+
+ 
+.join:hover{
+  background-color: aliceblue;
+  border-color: #A87FFB;
   
-  .nav-container a {
-    background-color: transparent;
-    border: 2px solid #007bff; /* Add the outline on the 'a' element */
-  }
-  
-  .nav-container a:hover {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .nav-container a:active {
-    background-color: #0056b3;
-  }
-  
-  .nav-container button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Change button color on hover */
-  .nav-container button:hover {
-    background-color: #0056b3;
-  }
-  
+}
+
+.join::after {
+  content: "~>";
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  color: rgb(16, 21, 29);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 6px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: fit-content;
+}

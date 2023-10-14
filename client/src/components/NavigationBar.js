@@ -5,8 +5,8 @@ import './NavigationBar.css';
 function NavigationBar() {
   return (
     <div className="nav-container">
-      <a href="/">Explore IDX</a>
-      <button>Join Waitlist</button>
+      <button className="explore">Explore IDX</button>
+        <button className="join">Join Waitlist</button>
     </div>
   );
 }
