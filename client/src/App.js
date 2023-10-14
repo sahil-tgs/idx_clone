@@ -70,8 +70,8 @@ function App() {
         </div>
         </div>
         
+        {/* <div className="shine"></div> */}
        
-        <div className="shine"></div>
       </div>
       
     </div>
