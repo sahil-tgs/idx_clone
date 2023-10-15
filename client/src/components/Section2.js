@@ -10,7 +10,7 @@ const Section2 = () => {
       </div>
 
       <div className="section2-heading">
-        <h1>Introducing Project IDX</h1>
+        <div>Introducing Project IDX</div>
       </div>
 
       <div className="section2-content">
