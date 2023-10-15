@@ -124,3 +124,10 @@
     box-sizing: border-box;
     color: rgb(128, 140, 156);
 }
+
+.peeking-div{
+  position: sticky;
+  bottom: 0;
+  background-color: red;
+  cursor: pointer;
+}

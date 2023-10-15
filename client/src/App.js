@@ -1,5 +1,8 @@
 // src/App.js
+// importing components from ./src/components
+// import React, { useState } from 'react';
 import './App.css';
+// import JoinForm from './components/JoinForm';
 import NavigationBar from './components/NavigationBar';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
@@ -8,9 +11,16 @@ import Section4 from './components/Section4';
 import Section5 from './components/Section5';
 import Section6 from './components/Section6';
 import Section7 from './components/Section7';
-// import Frame from './components/Frame';
+
 
 function App() {
+
+  // const [showForm, setShowForm] = useState(false);
+
+  // const toggleForm = () => {
+  //   setShowForm(!showForm);
+ // };
+
   return (
     <div className="app-container">
       
@@ -27,6 +37,7 @@ function App() {
       <div className="main">
 
         <div className="content">
+        
         <div className="navbar">
           <NavigationBar />
         </div> 
@@ -65,13 +76,17 @@ function App() {
             
             <a href="/" className="anc"> Terms & Conditions </a>
             </div>
-
-
         </div>
+{/* 
+        <div div className="peeking-div" onClick={toggleForm}>
+              Click to Show Form
+        </div>
+        {showForm && <JoinForm />} */}
+
         </div>
         
         {/* <div className="shine"></div> */}
-       
+            
       </div>
       
     </div>
