@@ -1,4 +1,4 @@
-/* src/App.css */
+  /* src/App.css */
 
 @keyframes dotScroll {
   0% {
@@ -109,4 +109,18 @@
       top: 0; /* Position at the top of the page */
       left: 50%; /* Position in the horizontal center */
       transform: translateX(-50%); 
+}
+
+.sidenav a{
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.Footer a{
+    background-color: rgb(16, 21, 29);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(16, 21, 29) 0px 0px 20px 20px;
+    box-sizing: border-box;
+    color: rgb(128, 140, 156);
 }

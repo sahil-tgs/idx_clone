@@ -6,7 +6,7 @@ const Section7 = () => {
     <div className="Section7">
 
       <div className="Section7-heading">
-        <h1>Let’s make the development workflow better, together</h1>
+        <div>Let’s make the development workflow better, together</div>
       </div>
 
       <div className="Section7-content">

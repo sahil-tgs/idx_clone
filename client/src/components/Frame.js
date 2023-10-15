@@ -17,7 +17,6 @@ const Frame = (props) => {
 
              <button className="lol"> 
                   Join Waitlist
-                  <img className="arrow" src="/squiggly_arroww.svg" alt="lol"/>
                </button>
 
         </div>
